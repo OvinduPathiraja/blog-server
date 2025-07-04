@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 import adminRouter from './routes/adminRoutes.js';
 import blogRouter from './routes/blogRoutes.js';
 import connectDB from './configs/db.js';
-
+import serverless from 'serverless-http';
 
 dotenv.config();
 
